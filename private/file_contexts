@@ -415,7 +415,6 @@
 /system/bin/linux_vm_setup        u:object_r:linux_vm_setup_exec:s0
 /system/bin/tradeinmode           u:object_r:tradeinmode_exec:s0
 /system/bin/prefetch              u:object_r:prefetch_exec:s0
-/system/bin/ram_boost\.sh u:object_r:ram_boost_exec:s0
 
 #############################
 # Vendor files
@@ -796,8 +795,6 @@
 /data/incremental/MT_[^/]+/mount/.pending_reads         u:object_r:incremental_control_file:s0
 /data/incremental/MT_[^/]+/mount/.log                   u:object_r:incremental_control_file:s0
 /data/incremental/MT_[^/]+/mount/.blocks_written        u:object_r:incremental_control_file:s0
-
-/data/swap/swapfile u:object_r:ram_boost_swap_file:s0
 
 # Boot animation data
 /data/misc/bootanim(/.*)? u:object_r:bootanim_data_file:s0

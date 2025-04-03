@@ -1,3 +1,0 @@
-typeattribute ram_boost coredomain;
-
-init_daemon_domain(ram_boost)
